@@ -1,14 +1,5 @@
-name="Топинамбур"
-print(name[0])
-
-name='Топинамбур'
-print(name [-1])
-
-name='Топинамбур'
-print(name[5:])
-
-name = "Топинамбур"
-print(name[::-1])
-
-name = "Топинамбур"
-print(name[1:10:2])
+home_work = 12
+o_clock = 1.5
+name_curce = "Python"
+o_clock2 = 0.125
+print('Курс:',name_curce,'всего задач',home_work,'затрачено часов',o_clock,'среднее время выполнения',o_clock2,"часа.")
