@@ -3,7 +3,7 @@ print(my_dict)
 print(my_dict['Egor'])
 my_dict.update({'Yaroslav': 2005, 'Andrey': 1992})
 print(my_dict)
-del my_dict['Masha']
+name = my_dict.pop('Masha')
 print(my_dict)
 
 
