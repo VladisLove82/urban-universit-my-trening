@@ -5,7 +5,7 @@ c = 5
 print((a**b) * c)
 
 #2nd program
-print(9.99 > 9.98, 1000 != 1000.1)
+print(9.99 > 9.98 and 1000 != 1000.1)
 
 #3st program
 a = (2 + 2) *2
@@ -22,5 +22,5 @@ result = float_number * 10
 print(result)
 number_string = 1234.56
 float_number = int(number_string)
-result = float_number / 10
+result = float_number % 10
 print(result)
